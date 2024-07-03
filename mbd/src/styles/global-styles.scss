@@ -1,0 +1,14 @@
+@import "./variables.scss";
+
+* {
+    font-family: "HelveticaNeue";
+    color: $light-gray;
+}
+
+html {
+    background-color: $dark;
+}
+
+body {
+    margin: 0;
+}
