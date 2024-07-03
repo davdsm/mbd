@@ -6,7 +6,7 @@ const Footer: React.FunctionComponent = () => {
     <footer>
     <hr />
     <div className='footer-content'>
-        <a className='instagram-button' href='https://www.instagram.com/ja_creativedesign/' >
+        <a className='instagram-button' href='https://www.instagram.com/ja_creativedesign/' target='_blank' >
         Instagram
         </a>
         <span className='copyright'>
