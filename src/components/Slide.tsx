@@ -15,15 +15,21 @@ const Slide: React.FunctionComponent = () => {
 
   return (
     <Swiper
-    loop={true}
-    slidesPerView={"auto"}
-    allowTouchMove={false}
-    autoplay={{
+      loop={true}
+      slidesPerView={"auto"}
+      allowTouchMove={false}
+      spaceBetween={12}
+      modules={[Autoplay]}
+      autoplay={{
         delay: 2000,
         disableOnInteraction: false,
-    }}
-    spaceBetween={12}
-    modules={[Autoplay]}
+      }}
+      breakpoints={{
+        1000: {
+          modules: undefined,
+          autoplay: false
+        }
+      }}
     >
     {
         slides.map((slide, index) => 
