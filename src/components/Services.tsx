@@ -5,7 +5,7 @@ const Services: React.FunctionComponent = () => {
   return (
     <div className='services-row'>
         <div className='services-row-title'>
-        <span>&#8211;&#8211;</span>
+        <hr />
         <span>Serviços</span>
         </div>
         <div className='services-row-content'>

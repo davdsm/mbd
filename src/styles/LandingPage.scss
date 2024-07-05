@@ -26,6 +26,7 @@ header {
         background-color: transparent;
         border: none;
         cursor: pointer;
+        padding: 0;
     }
 }
 
@@ -141,6 +142,15 @@ header {
             @media (width < 901px) {
                 min-width: 100%;
                 max-width: 100%;
+            }
+
+            hr {
+                width: 28px;
+                margin: 1.2rem 0 0.7rem 0.03rem;
+                border-top: 3px solid $light-gray;
+                border-left: none;
+                border-right: none;
+                border-bottom: none;
             }
         }
     

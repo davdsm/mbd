@@ -26,7 +26,7 @@ const Method: React.FunctionComponent = () => {
   return (
     <div className='method-row'>
       <div className='method-row-title'>
-        <span>&#8211;&#8211;</span>
+        <hr />
         <span>Método</span>
       </div>
       <div className='method-row-content'>

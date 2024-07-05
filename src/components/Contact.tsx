@@ -5,7 +5,7 @@ const Contact: React.FunctionComponent = () => {
   return (
     <div className='contacts-row'>
       <div className='contacts-row-title'>
-        <span>&#8211;&#8211;</span>
+        <hr />
         <span>Contacto</span>
       </div>
       <div className='contacts-row-content'>
