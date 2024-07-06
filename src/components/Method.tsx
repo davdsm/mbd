@@ -31,13 +31,28 @@ const Method: React.FunctionComponent = () => {
       </div>
       <div className='method-row-content'>
         <span>01. Descoberta:</span>
-        <span style={{ textWrap: "balance" }}>Workshop de estratégia & Imersão no teu mundo.</span>
+        <span style={{ textWrap: "balance" }}>
+          Workshop de estratégia
+          <br />
+          & Imersão no teu mundo.
+        </span>
         <br />
         <span>02. Direção:</span>
-        <span>Posicionamento & Identidade visual e verbal.</span>
+        <span>
+          Posicionamento &
+          <br />
+          Identidade visual e verbal.
+        </span>
         <br />
         <span>03. Fluxo:</span>
-        <span>Um sistema de marca pronto a desenvolver como deseja, com os fornecedores à sua escolha.</span>
+        <span>
+          Um sistema de marca pronto
+          <br />
+          a desenvolver como deseja,
+          <br />
+          com os fornecedores à sua
+          <br />
+          escolha.</span>
         <div className='schema'>
           { isDesktop ? <HorizontalMethodSchema /> : <VerticalMethodSchema /> }
         </div>

@@ -20,7 +20,7 @@ header {
     position: fixed;
     top: 0;
     z-index: 2;
-    width: 100vw;
+    width: 100%;
 
     button {
         background-color: transparent;
@@ -66,10 +66,10 @@ header {
 
     div {
         display: block;
-        width: 70%;
+        overflow: visible;
+        text-wrap: nowrap;
 
         @media (width < 901px) {
-            width: 100%;
             text-wrap: balance;
         }
     }
@@ -89,11 +89,8 @@ header {
 
     div {
         display: block;
-        width: 89.5%;
-
-        @media (width < 901px) {
-            width: 100%;
-        }
+        overflow: visible;
+        text-wrap: nowrap;
     }
 }
 
@@ -124,7 +121,7 @@ header {
         letter-spacing: -1px;
         text-align: left;
 
-        @media (width < 901px) {
+        @media (width < 631px) {
             flex-direction: column;
             gap: 1.4rem;
             font-size: 1.625rem;
@@ -139,7 +136,7 @@ header {
                 min-width: calc(calc(58.5% - 1rem) / 2);
             }
 
-            @media (width < 901px) {
+            @media (width < 631px) {
                 min-width: 100%;
                 max-width: 100%;
             }
@@ -163,17 +160,9 @@ header {
                 min-width: calc(calc(141.5% - 1rem) / 2);
             }
 
-            @media (width < 901px) {
+            @media (width < 631px) {
                 min-width: 100%;
                 max-width: 100%;
-            }
-
-            span {
-                max-width: 58.5%;
-
-                @media (width < 901px) {
-                    max-width: 100%;
-                }
             }
 
             .schema {
@@ -195,10 +184,6 @@ header {
 
         @media (width < 901px) {
             margin-top: 1.65rem;
-
-            span {
-                max-width: 98% !important;
-            }
         }
     }
 
